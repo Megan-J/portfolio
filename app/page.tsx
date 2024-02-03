@@ -11,13 +11,15 @@ export default function Home() {
 
       <div className="my-16 text-center ">
         <h2 className={`m-0 text-sm opacity-50`}>
-          I'm building to solve API authentication and authorization for
-          developers.
+          Software developer hard at work
         </h2>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-        <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <Link
+          href="/experience"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Experience{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -27,9 +29,12 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Learn more about what I've accomplished!
           </p>
-        </a>
+        </Link>
 
-        <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <Link
+          href="/projects"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Projects{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -39,7 +44,7 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Learn about projects I've worked on!
           </p>
-        </a>
+        </Link>
 
         <Link
           href="/contact"
