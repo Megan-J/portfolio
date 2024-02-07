@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Socials from "./components/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
         <h2 className={`m-0 text-md opacity-50`}>
           Software developer hard at work
         </h2>
+      </div>
+
+      <div>
+        <Socials />
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
