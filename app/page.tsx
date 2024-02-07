@@ -16,7 +16,7 @@ export default function Home() {
         </h2>
       </div>
 
-      <div>
+      <div className="text-center">
         <Socials />
       </div>
 
