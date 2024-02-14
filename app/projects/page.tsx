@@ -1,4 +1,5 @@
 import Link from "next/link";
+import thumbnailData from "./thumbnailData";
 
 export default function About() {
   return (
